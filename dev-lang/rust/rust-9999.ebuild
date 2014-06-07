@@ -4,11 +4,13 @@
 EAPI=5
 PYTHON_RESTRICTED_ABIS="3.*"
 
-inherit python
+inherit python git-2
 
 DESCRIPTION="Experimental programming language from mozilla"
 HOMEPAGE="http://www.rust-lang.org"
-SRC_URI="http://static.rust-lang.org/dist/${P}.tar.gz"
+SRC_URI=""
+
+EGIT_REPO_URI="https://github.com/mozilla/rust.git"
 
 LICENSE="MIT Apache-2.0"
 SLOT="0"
@@ -37,3 +39,6 @@ src_compile() {
 src_install() {
 	emake DESTDIR="${D}" install || die
 }
+
+
+ 
