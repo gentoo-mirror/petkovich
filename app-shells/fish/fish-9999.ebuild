@@ -13,7 +13,7 @@ HOMEPAGE="http://fishshell.com/"
 EGIT_REPO_URI="https://github.com/fish-shell/fish-shell.git"
 
 LICENSE="GPL-2"
-SLOT="git"
+SLOT="0"
 KEYWORDS=""
 IUSE="X"
 
