@@ -88,6 +88,7 @@ src_install() {
 	fperms +x /usr/share/${PN}/resources/app/apm/node_modules/.bin/apm
 	fperms +x /usr/share/${PN}/resources/app/apm/node_modules/atom-package-manager/bin/node
         fperms +x /usr/share/${PN}/resources/app/node_modules/symbols-view/vendor/ctags-linux
+        fperms +x /usr/share/${PN}/resources/app/apm/node_modules/atom-package-manager/node_modules/npm/bin/node-gyp-bin/node-gyp
 
 	# Symlinking to /usr/bin
 	dosym ../share/${PN}/resources/app/atom.sh /usr/bin/atom
