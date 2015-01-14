@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: petkovich/net-libs/nodejs/iojs-1.0.1.ebuild,v 1.1 2015/01/14 14:26:00 Petkovich $
+# $Header: petkovich/net-libs/iojs/iojs-1.0.1.ebuild,v 1.1 2015/01/14 14:26:00 Petkovich $
 
 EAPI=5
 
