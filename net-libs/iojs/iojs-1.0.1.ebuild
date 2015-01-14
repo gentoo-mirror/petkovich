@@ -17,7 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~x86 ~x64-macos"
 IUSE="+npm"
 
-RDEPEND="dev-libs/openssl"
+RDEPEND="dev-libs/openssl
+         !net-libs/nodejs"
 DEPEND="${PYTHON_DEPS}
 	${RDEPEND}"
 
