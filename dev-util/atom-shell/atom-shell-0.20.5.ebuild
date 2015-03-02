@@ -1,11 +1,11 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=5
 
 PYTHON_COMPAT=( python2_7 )
-inherit git-2 flag-o-matic python-any-r1
+inherit git-r3 flag-o-matic python-any-r1
 
 DESCRIPTION="Cross-platform desktop application shell"
 HOMEPAGE="https://github.com/atom/atom-shell"
@@ -14,7 +14,7 @@ SRC_URI=""
 EGIT_REPO_URI="git://github.com/atom/atom-shell"
 
 LICENSE="MIT"
-SLOT="0"
+SLOT="0/21"
 
 if [[ ${PV} == *9999 ]];then
 	KEYWORDS=""
@@ -41,6 +41,7 @@ DEPEND="
 	sys-libs/libcap
 	x11-libs/libXtst
 	x11-libs/pango
+	dev-util/ninja
 "
 RDEPEND="${DEPEND}
 	!<app-editors/atom-0.120.0
@@ -51,7 +52,7 @@ QA_PRESTRIPPED="
 	/usr/share/atom/libchromiumcontent.so
 "
 src_unpack() {
-	git-2_src_unpack
+	git-r3_src_unpack
 }
 
 pkg_setup() {
@@ -66,8 +67,8 @@ src_prepare() {
 
 	# Fix util.execute function to be more verbose
 	sed -i -e 's/def execute(argv):/def execute(argv):\n  print "   - bootstrap: " + " ".join(argv)/g' \
-          ./script/lib/util.py \
-          || die "Failed to sed lib/util.py"
+    ./script/lib/util.py \
+    || die "Failed to sed lib/util.py"
 
 	# Bootstrap
 	./script/bootstrap.py || die "bootstrap failed"
