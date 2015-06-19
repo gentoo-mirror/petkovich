@@ -1,0 +1,7 @@
+Add the following entry to overlays in /etc/layman/layman.cfg
+
+http://www.eyolfson.com/overlay.xml
+
+It is also listed in the gentoo layman registry as well
+
+http://www.gentoo.org/proj/en/overlays/repositories.xml
