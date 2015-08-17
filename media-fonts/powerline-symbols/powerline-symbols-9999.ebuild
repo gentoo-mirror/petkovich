@@ -3,9 +3,6 @@
 # $Header: /var/cvsroot/gentoo-x86/dev-python/setuptools/setuptools-9999.ebuild,v 1.1 2013/01/11 09:59:31 mgorny Exp $
 EAPI="5"
 
-# Enforce Bash scrictness.
-set -e
-
 EGIT_REPO_URI="https://github.com/Lokaltog/powerline"
 EGIT_BRANCH="develop"
 
