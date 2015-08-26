@@ -13,7 +13,7 @@ games-arcade/binding-of-isaac 1.0: Action RPG similar to the Legend of Zelda wit
 media-fonts/powerline-fonts 9999-r1: Monospaced fonts pre-patched with Powerline symbols
 media-fonts/powerline-symbols 9999: OpenType Unicode font containing only Powerline-specific symbols.
 media-fonts/ttf-font-icons 9999: A non-overlapping mix of Ionicons and Awesome iconic fonts
-net-libs/iojs 1.0.2: Evented IO for V8 Javascript
+net-libs/iojs 1.0.2 3.2.0: An npm compatible platform originally based on node.js
 sys-apps/data-science-toolbox 9999: Jeroen janssens data-science-toolbox
 sys-power/cpufreqd 2.4.2: CPU Frequency Daemon
 virtual/nodejs 1: Virtual for nodejs implementations
