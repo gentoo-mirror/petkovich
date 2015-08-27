@@ -40,9 +40,9 @@ src_prepare() {
 		-i Makefile || die
 	tc-export CC
 
-  # if use noboldcolors; then
-  #     epatch "${FILESDIR}/${P}-no_bold_colors"
-  # fi
+	if use noboldcolors; then
+			epatch "${FILESDIR}/${P}-no_bold_colors"
+	fi
 
 	restore_config config.h
 }
