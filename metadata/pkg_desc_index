@@ -18,6 +18,7 @@ net-libs/iojs 1.0.2 3.2.0: An npm compatible platform originally based on node.j
 sys-apps/data-science-toolbox 9999: Jeroen janssens data-science-toolbox
 sys-power/cpufreqd 2.4.2: CPU Frequency Daemon
 virtual/nodejs 1: Virtual for nodejs implementations
+www-client/uzbl 9999-r1: Web interface tools which adhere to the unix philosophy.
 x11-libs/ghosd 0.0.1: On-screen display (OSD) with transparency
 x11-misc/dzen 9999: 
 x11-terms/st 0.4.1 0.5 0.6-r1: simple terminal implementation for X
