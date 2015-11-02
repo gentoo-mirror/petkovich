@@ -6,13 +6,12 @@ EAPI="5"
 # Enforce Bash scrictness.
 set -e
 
-SRC_URI="https://www.dropbox.com/s/nypgaun7ckl97ga/icons.ttf"
 EGIT_BRANCH="develop"
 
 inherit font
 
 DESCRIPTION="A non-overlapping mix of Ionicons and Awesome iconic fonts"
-HOMEPAGE="https://www.dropbox.com/s/9iysh2i0gadi4ic/icons.pdf"
+HOMEPAGE="http://kageurufu.net/icons.pdf"
 
 LICENSE="MIT"
 SLOT="0"
@@ -29,9 +28,9 @@ S=${WORKDIR}/ttf-font-icons
 src_unpack() {
     mkdir -p ${S}/font
     cp ${DISTDIR}/${A} ${S}/font/
+    cp ${FILESDIR}/icons.ttf ${S}/font/
 }
 
 
 FONT_S="${S}/font"
 FONT_SUFFIX="ttf"
-# FONT_CONF=( "${FONT_S}/10-powerline-symbols.conf" )
