@@ -22,5 +22,6 @@ virtual/cblas 2.0-r4: Virtual for BLAS C implementation
 virtual/nodejs 1: Virtual for nodejs implementations
 www-client/uzbl 9999-r1: Web interface tools which adhere to the unix philosophy.
 x11-libs/ghosd 0.0.1: On-screen display (OSD) with transparency
+x11-misc/dmenu 9999-r1: a generic, highly customizable, and efficient menu for the X Window System
 x11-misc/dzen 9999: 
 x11-terms/st 0.4.1 0.5 0.6-r1: simple terminal implementation for X
