@@ -1,5 +1,5 @@
 app-editors/atom 0.184.0 9999: A hackable text editor for the 21st Century
-app-editors/atom-bin 1.0.19: A hackable text editor for the 21st Century.
+app-editors/atom-bin 1.0.19 1.2.0: A hackable text editor for the 21st Century.
 app-emacs/ace-jump-mode 9999: Ace jump mode is a minor mode of emacs, which help you to move the cursor within Emacs.
 app-emacs/evil 9999: Extensible vi layer
 app-emacs/expand-region 9999: Emacs package for expanding the selected region by semantic units.
