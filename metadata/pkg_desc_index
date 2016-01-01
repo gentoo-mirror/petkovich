@@ -18,6 +18,7 @@ net-libs/iojs 1.0.2 3.2.0: An npm compatible platform originally based on node.j
 sci-libs/atlas 3.10.1-r3 3.11.38-r2: Automatically Tuned Linear Algebra Software
 sys-apps/data-science-toolbox 9999: Jeroen janssens data-science-toolbox
 sys-power/cpufreqd 2.4.2: CPU Frequency Daemon
+virtual/blas 2.1-r6: Virtual for FORTRAN 77 BLAS implementation
 virtual/cblas 2.0-r4: Virtual for BLAS C implementation
 virtual/lapack 3.6-r1: Virtual for Linear Algebra Package FORTRAN 77 implementation
 virtual/nodejs 1: Virtual for nodejs implementations
