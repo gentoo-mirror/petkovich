@@ -21,12 +21,12 @@ RDEPEND="
 		sci-libs/blas-reference[int64?,${MULTILIB_USEDEP}]
 		>=sci-libs/openblas-0.2.11[int64?,${MULTILIB_USEDEP}]
 		sci-libs/gotoblas2[int64?,${MULTILIB_USEDEP}]
-		sci-libs/mkl[int64?,${MULTILIB_USEDEP}]
+    sci-libs/mkl[int64?,${MULTILIB_USEDEP}]
+    sci-libs/atlas[fortran]
 		abi_x86_64? (
 			!abi_x86_32? (
 				>=dev-cpp/eigen-3.1.4
-				sci-libs/atlas[fortran]
-				>=sci-libs/acml-4.4
+        >=sci-libs/acml-4.4
 			)
 		)
 	)
