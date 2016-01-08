@@ -62,7 +62,9 @@ pkg_setup() {
 }
 
 src_prepare() {
-    epatch_user
+		pushd "$WORKDIR" > /dev/null
+		epatch_user
+		popd > /dev/null
 }
 
 src_configure() {
