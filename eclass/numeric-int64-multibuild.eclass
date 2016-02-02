@@ -24,7 +24,7 @@ case ${EAPI:-0} in
 	*) die "EAPI=${EAPI} is not supported" ;;
 esac
 
-MULTILIB_COMPAT=( abi_x86_{32,64} )
+# MULTILIB_COMPAT=( abi_x86_{32,64} )
 
 inherit alternatives-2 eutils fortran-2 multilib-build numeric toolchain-funcs
 
