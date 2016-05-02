@@ -68,6 +68,7 @@ DEPEND="${RDEPEND}
 PATCHES=(
 	"${FILESDIR}/${PN}-5.4.2-system-leveldb.patch"
 	"${FILESDIR}/${PN}-5.6.0-pthread-fix.patch"
+	"${FILESDIR}/${PN}-5.6.0-pthread-wtf-fix.patch"
 )
 
 src_prepare() {
@@ -107,4 +108,7 @@ src_prepare() {
 	sed -i -e '/SUBDIRS += examples/d' Source/QtWebKit.pro || die
 
 	qt5-build_src_prepare
+
+  # problem with pthread flags on arm
+  append-flags "-pthread"
 }
