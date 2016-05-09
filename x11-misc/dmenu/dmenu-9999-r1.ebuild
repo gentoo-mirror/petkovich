@@ -33,8 +33,6 @@ src_prepare() {
 		-e '/^	echo/d' \
 		Makefile || die
 
-	epatch "${FILESDIR}"/${P}-gentoo.patch
-
   restore_config config.def.h
   epatch_user
 }
