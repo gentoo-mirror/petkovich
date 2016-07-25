@@ -5,6 +5,10 @@ app-emacs/evil 9999: Extensible vi layer
 app-emacs/expand-region 9999: Emacs package for expanding the selected region by semantic units.
 app-misc/powerline 9999-r14: Python-based statusline/prompt utility
 app-shells/fish 2.1.1 9999: fish is the Friendly Interactive SHell
+app-text/calibre 2.63.0: Ebook management application
+app-text/libzathura 9999: The new rendering library for zathura the document viewer
+app-text/libzathura-gtk 9999: GTK widget extensions for libzathura.
+app-text/zathura-pdf-poppler 9999-r1: PDF plug-in for zathura
 dev-python/csvkit 0.9.0: csvkit is a suite of utilities for converting to and working with CSV.
 dev-python/dbf 0.95.004: Pure python package for reading/writing dBase, FoxPro and Visual FoxPro .dbf files.
 dev-python/emacs-epc 0.0.5 0.0.5-r1: Python interface to emacs remote procedure call
