@@ -63,7 +63,7 @@ src_install() {
 			create_pkgconfig \
 				--name  ${profname} \
 				--description "${DESCRIPTION} CBLAS implementation" \
-				--libs "-L\${libdir} -l${libname}" \
+				--libs "-L\${libdir} -l${libname} -lgslcblas" \
 				--libs-private "-lm" \
 				--cflags "-I\${includedir} $(numeric-int64_get_fortran_int64_abi_fflags)" \
 				${profname}
