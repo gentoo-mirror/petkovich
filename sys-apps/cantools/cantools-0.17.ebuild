@@ -19,3 +19,14 @@ DEPEND="
 >=sci-libs/matio-1.5.1
 "
 RDEPEND="${DEPEND}"
+
+src_install() {
+    # rename colliding binaries
+    mv "${S}/matdump" "${S}/cantools-matdump"
+    doexe cantomat
+    doexe dbccopy
+    doexe dbcls
+    doexe depcomp
+    doexe cantools-matdump
+    doexe mdftomat
+}
