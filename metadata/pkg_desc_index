@@ -26,6 +26,7 @@ sci-libs/atlas 3.10.1-r3 3.11.38-r2: Automatically Tuned Linear Algebra Software
 sci-libs/gsl 2.1-r1: GNU Scientific Library
 sci-libs/lapack-reference 9999-r1: Reference implementation of LAPACK
 sci-libs/openblas 9999-r1: Optimized BLAS library based on GotoBLAS2
+sys-apps/cantools 0.17: Cantools is a collection of tools for dealing with Canalyzer style CAN data.
 sys-apps/data-science-toolbox 9999: Jeroen janssens data-science-toolbox
 sys-power/cpufreqd 2.4.2: CPU Frequency Daemon
 virtual/blas 2.1-r6: Virtual for FORTRAN 77 BLAS implementation
