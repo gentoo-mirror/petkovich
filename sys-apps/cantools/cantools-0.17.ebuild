@@ -23,5 +23,10 @@ RDEPEND="${DEPEND}"
 src_install() {
     # rename colliding binaries
     mv "${S}/matdump" "${S}/cantools-matdump"
-    emake DESTDIR="${D}" install
+    doexe cantomat
+    doexe dbccopy
+    doexe dbcls
+    doexe depcomp
+    doexe cantools-matdump
+    doexe mdftomat
 }
