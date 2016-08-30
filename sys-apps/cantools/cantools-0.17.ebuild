@@ -23,6 +23,7 @@ RDEPEND="${DEPEND}"
 src_install() {
     # rename colliding binaries
     mv "${S}/matdump" "${S}/cantools-matdump"
+    into /usr/bin
     doexe cantomat
     doexe dbccopy
     doexe dbcls
