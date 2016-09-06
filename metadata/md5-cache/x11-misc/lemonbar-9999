@@ -1,0 +1,13 @@
+DEFINED_PHASES=prepare unpack
+DEPEND=dev-lang/perl x11-libs/libxcb xft? ( x11-libs/libXft ) >=dev-vcs/git-1.8.2.1
+DESCRIPTION=a featherweight, lemon-scented, bar based on xcb
+EAPI=6
+HOMEPAGE=https://github.com/LemonBoy/bar
+IUSE=xft
+KEYWORDS=amd64 x86
+LICENSE=MIT
+RDEPEND=x11-libs/libxcb xft? ( x11-libs/libXft )
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_prepare:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	00f60a84fc7b499c99edfe99caea9f95	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=6f0d394f8f3dd79b54dbfe3daf43953a
