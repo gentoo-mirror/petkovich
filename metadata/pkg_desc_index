@@ -39,4 +39,6 @@ x11-libs/ghosd 0.0.1: On-screen display (OSD) with transparency
 x11-misc/dzen 9999: 
 x11-misc/lemonbar 9999: a featherweight, lemon-scented, bar based on xcb
 x11-terms/st 0.4.1 0.5 0.6-r1: simple terminal implementation for X
-x11-wm/swm 9999: a featherweight, lemon-scented, bar based on xcb
+x11-wm/swm 9999: A simple window manager.
+x11-wm/wmutils-contrib 9999: Wmutils useful bits and pieces.
+x11-wm/wmutils-core 9999: A set of window manipulation tools.
