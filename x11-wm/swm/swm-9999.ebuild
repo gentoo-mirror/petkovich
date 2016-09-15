@@ -6,7 +6,7 @@ EAPI=6
 
 inherit git-r3 eutils savedconfig toolchain-funcs
 
-DESCRIPTION="a featherweight, lemon-scented, bar based on xcb"
+DESCRIPTION="A simple window manager."
 HOMEPAGE="https://github.com/dcat/swm"
 EGIT_REPO_URI="https://github.com/dcat/swm.git"
 
