@@ -6,9 +6,9 @@ EAPI=6
 
 inherit git-r3 eutils toolchain-funcs
 
-DESCRIPTION="A set of window manipulation tools."
-HOMEPAGE="https://github.com/wmutils/core"
-EGIT_REPO_URI="https://github.com/wmutils/core.git"
+DESCRIPTION="Wmutils optional utilities."
+HOMEPAGE="https://github.com/wmutils/opt"
+EGIT_REPO_URI="https://github.com/wmutils/opt.git"
 
 LICENSE="MIT"
 SLOT="0"
