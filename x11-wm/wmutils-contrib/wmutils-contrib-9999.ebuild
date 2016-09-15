@@ -13,7 +13,6 @@ EGIT_REPO_URI="https://github.com/wmutils/contrib.git"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 x86"
-IUSE="savedconfig"
 
 DEPEND="
 	x11-libs/libxcb
