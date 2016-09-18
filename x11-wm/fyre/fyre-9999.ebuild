@@ -27,4 +27,10 @@ src_compile() {
 
 src_install() {
     emake DESTDIR="${D}" PREFIX="${I}"/usr install
+    dodoc extras/config.example
+    dodoc extras/flicker
+    dodoc extras/sourcefyre.zsh
+    dodoc extras/sxhkdc.example
+    dodoc extras/taskbar
+    dodoc extras/windows-fyrefree
 }
