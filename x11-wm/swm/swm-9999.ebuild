@@ -30,7 +30,7 @@ RDEPEND="
 
 src_prepare() {
     restore_config config.h
-    epatch_user
+    default
 }
 
 src_install() {
