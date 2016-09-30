@@ -28,6 +28,11 @@ RDEPEND="
 	${CDEPEND}
 "
 
+src_prepare() {
+    restore_config config.h
+    epatch_user
+}
+
 src_install() {
     default
     save_config config.h
