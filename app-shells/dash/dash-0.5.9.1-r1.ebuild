@@ -6,13 +6,13 @@ EAPI=5
 
 inherit eutils flag-o-matic toolchain-funcs versionator
 
-MY_PV="$(get_version_component_range 1-3)"
-DEB_PATCH="$(get_version_component_range 4)"
-MY_P="${PN}-${MY_PV}"
+#MY_PV="$(get_version_component_range 1-3)"
+DEB_PATCH="" #$(get_version_component_range 4)
+#MY_P="${PN}-${MY_PV}"
 
 DESCRIPTION="DASH is a direct descendant of the NetBSD version of ash (the Almquist SHell) and is POSIX compliant"
 HOMEPAGE="http://gondor.apana.org.au/~herbert/dash/"
-SRC_URI="http://gondor.apana.org.au/~herbert/dash/files/${MY_P}.tar.gz"
+SRC_URI="http://gondor.apana.org.au/~herbert/dash/files/${P}.tar.gz"
 if [[ -n "${DEB_PATCH}" ]] ; then
 	DEB_PF="${PN}_${MY_PV}-${DEB_PATCH}"
 	SRC_URI+=" mirror://debian/pool/main/d/dash/${DEB_PF}.diff.gz"
@@ -28,7 +28,7 @@ DEPEND="${RDEPEND}
 	virtual/pkgconfig
 	libedit? ( static? ( dev-libs/libedit[static-libs] ) )"
 
-S=${WORKDIR}/${MY_P}
+#S=${WORKDIR}/${MY_P}
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-0.5.8.1-eval-warnx.patch
