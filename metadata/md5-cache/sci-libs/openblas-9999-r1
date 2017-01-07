@@ -9,5 +9,5 @@ RDEPEND=>=app-admin/eselect-1.4.5-r103 !app-eselect/eselect-blas !app-eselect/es
 SLOT=0
 SRC_URI=http://dev.gentoo.org/~gienah/distfiles/openblas-0.2.11-gentoo.patch
 _eclass_exported_funcs=pkg_prerm:alternatives-2 pkg_postinst:alternatives-2 pkg_setup:fortran-2 src_unpack:git-r3 src_prepare:- src_configure:- src_compile:- src_test:- src_install:-
-_eclasses_=alternatives-2	c999805141d429cec00b3623d15610d2	eutils	b83a2420b796f7c6eff682679d08fe25	fortran-2	8200fc942c3b3c1fc75d4d5bfd0ba7a2	git-r3	e928b84a9f6f1d9076d1d27687876dc6	multibuild	742139c87a9fa3766f0c2b155e5522bf	multilib	165fc17c38d1b11dac2008280dab6e80	multilib-build	8fe2e81aeb36cdf8a6cc5f50443879cc	numeric	0c830a1432a1e464d4e952ad44bbd231	numeric-int64-multibuild	370311ee41562c9ed5a8b739171b6d7b	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_eclasses_=alternatives-2	c999805141d429cec00b3623d15610d2	eutils	017377e73405d964cd0137088cddb9c3	fortran-2	8200fc942c3b3c1fc75d4d5bfd0ba7a2	git-r3	e928b84a9f6f1d9076d1d27687876dc6	multibuild	742139c87a9fa3766f0c2b155e5522bf	multilib	165fc17c38d1b11dac2008280dab6e80	multilib-build	8fe2e81aeb36cdf8a6cc5f50443879cc	numeric	0c830a1432a1e464d4e952ad44bbd231	numeric-int64-multibuild	370311ee41562c9ed5a8b739171b6d7b	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
 _md5_=41d00e7eae7e62fecc77f12173ee8065
