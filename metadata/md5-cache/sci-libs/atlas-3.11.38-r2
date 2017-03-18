@@ -10,5 +10,5 @@ RDEPEND=>=app-admin/eselect-1.4.5-r103 !app-eselect/eselect-blas !app-eselect/es
 SLOT=0
 SRC_URI=mirror://sourceforge/math-atlas/atlas3.11.38.tar.bz2 fortran? ( lapack? ( http://www.netlib.org/lapack/lapack-3.6.0.tgz ) )
 _eclass_exported_funcs=pkg_prerm:alternatives-2 pkg_postinst:alternatives-2 pkg_setup:- src_configure:- src_compile:- src_test:- src_install:-
-_eclasses_=alternatives-2	c999805141d429cec00b3623d15610d2	eutils	3c847a0129fed780bd709b98e426f89c	fortran-2	9773a6296d565bc8cf241891112a9705	multilib	0236be304ee52e7f179ed2f337075515	numeric	0c830a1432a1e464d4e952ad44bbd231	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_eclasses_=alternatives-2	c999805141d429cec00b3623d15610d2	epatch	122e1264e67c4f59a1482f2095e0b35d	estack	5ac2a138d0b33354b764d84f9e835db8	eutils	1ef31aee2bd63ffbfcae8a1843c9208d	fortran-2	9773a6296d565bc8cf241891112a9705	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	numeric	0c830a1432a1e464d4e952ad44bbd231	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0
 _md5_=a86d40f1fd70a7d1f268be368db17a91
