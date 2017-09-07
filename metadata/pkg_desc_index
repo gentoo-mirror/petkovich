@@ -35,7 +35,6 @@ virtual/cblas 2.0-r4: Virtual for BLAS C implementation
 virtual/lapack 3.6-r1: Virtual for Linear Algebra Package FORTRAN 77 implementation
 virtual/nodejs 1: Virtual for nodejs implementations
 www-client/surf 0.7-r1: a simple web browser based on WebKit/GTK+
-www-client/uzbl 9999-r1: Web interface tools which adhere to the unix philosophy.
 x11-libs/ghosd 0.0.1: On-screen display (OSD) with transparency
 x11-misc/dzen 9999: 
 x11-misc/lemonbar 9999: a featherweight, lemon-scented, bar based on xcb
