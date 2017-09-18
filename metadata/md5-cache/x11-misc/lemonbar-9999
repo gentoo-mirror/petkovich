@@ -8,5 +8,5 @@ KEYWORDS=amd64 x86
 LICENSE=MIT
 RDEPEND=x11-libs/libxcb xft? ( x11-libs/libXft )
 SLOT=0
-_eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
+_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
 _md5_=6f0d394f8f3dd79b54dbfe3daf43953a
