@@ -24,6 +24,7 @@ REQUIRED_USE="|| ( webengine webkit )"
 
 COMMON_DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 DEPEND="${COMMON_DEPEND}
+  dev-util/source-highlight
 	app-text/asciidoc
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 RDEPEND="${COMMON_DEPEND}
@@ -31,6 +32,7 @@ RDEPEND="${COMMON_DEPEND}
 	>=dev-python/jinja-2.8[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.1.3[${PYTHON_USEDEP}]
 	>=dev-python/pypeg2-2.15.2[${PYTHON_USEDEP}]
+  >=dev-python/attrs-16.3.0
 	dev-python/PyQt5[${PYTHON_USEDEP},declarative,gui,network,printsupport,webengine?,webkit?,widgets]
 	dev-python/sip[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
