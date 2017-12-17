@@ -1,48 +1,16 @@
-app-editors/atom 0.184.0 9999: A hackable text editor for the 21st Century
-app-editors/atom-bin 1.0.19 1.2.0: A hackable text editor for the 21st Century.
 app-emacs/ace-jump-mode 9999: Ace jump mode is a minor mode of emacs, which help you to move the cursor within Emacs.
-app-emacs/evil 9999: Extensible vi layer
 app-emacs/expand-region 9999: Emacs package for expanding the selected region by semantic units.
-app-misc/powerline 9999-r14: Python-based statusline/prompt utility
-app-shells/dash 0.5.9.1-r1: DASH is a direct descendant of the NetBSD version of ash (the Almquist SHell) and is POSIX compliant
-app-shells/fish 2.1.1 9999: fish is the Friendly Interactive SHell
-app-text/calibre 2.63.0: Ebook management application
-app-text/libzathura 9999: The new rendering library for zathura the document viewer
-app-text/libzathura-gtk 9999: GTK widget extensions for libzathura.
-app-text/zathura-pdf-poppler 9999-r1: PDF plug-in for zathura
+app-shells/fish 2.1.1: fish is the Friendly Interactive SHell
 dev-lang/v8 3.14.5.3: Google's open source JavaScript engine
 dev-python/csvkit 0.9.0: csvkit is a suite of utilities for converting to and working with CSV.
 dev-python/dbf 0.95.004: Pure python package for reading/writing dBase, FoxPro and Visual FoxPro .dbf files.
 dev-python/emacs-epc 0.0.5 0.0.5-r1: Python interface to emacs remote procedure call
 dev-python/sexpdata 0.0.3: S-expression parser for Python
-dev-qt/qtwebkit 5.6.0-r1: WebKit rendering library for the Qt5 framework (deprecated)
-dev-util/atom-shell 0.21.2-r2 9999: Cross-platform desktop application shell
-games-arcade/binding-of-isaac 1.0: Action RPG similar to the Legend of Zelda with randomized dungeons.
-media-fonts/powerline-fonts 9999-r1: Monospaced fonts pre-patched with Powerline symbols
-media-fonts/powerline-symbols 9999: OpenType Unicode font containing only Powerline-specific symbols.
-media-fonts/ttf-font-icons 9999: A non-overlapping mix of Ionicons and Awesome iconic fonts
-net-libs/iojs 1.0.2 3.2.0: An npm compatible platform originally based on node.js
-net-misc/openconnect 7.06-r3: Free client for Cisco AnyConnect SSL VPN software
-sci-libs/atlas 3.10.1-r3 3.11.38-r2: Automatically Tuned Linear Algebra Software
-sci-libs/gsl 2.1-r1: GNU Scientific Library
-sci-libs/lapack-reference 9999-r1: Reference implementation of LAPACK
-sci-libs/openblas 9999-r1: Optimized BLAS library based on GotoBLAS2
 sys-apps/cantools 0.17: Cantools is a collection of tools for dealing with Canalyzer style CAN data.
 sys-apps/data-science-toolbox 9999: Jeroen janssens data-science-toolbox
 sys-power/cpufreqd 2.4.2: CPU Frequency Daemon
-virtual/blas 2.1-r6: Virtual for FORTRAN 77 BLAS implementation
-virtual/cblas 2.0-r4: Virtual for BLAS C implementation
-virtual/lapack 3.6-r1: Virtual for Linear Algebra Package FORTRAN 77 implementation
 virtual/nodejs 1: Virtual for nodejs implementations
-www-client/qutebrowser 9999-r1: A keyboard-driven, vim-like browser based on PyQt5 and QtWebKit / QtWebEngine
-www-client/surf 0.7-r1: a simple web browser based on WebKit/GTK+
-x11-libs/ghosd 0.0.1: On-screen display (OSD) with transparency
-x11-misc/colort 9999: A small program for 'tinting' colors by values. Also supports inverting colors.
-x11-misc/compton 9999-r1: A compositor for X, and a fork of xcompmgr-dana
-x11-misc/dzen 9999: 
 x11-misc/lemonbar 9999: a featherweight, lemon-scented, bar based on xcb
-x11-misc/xrq 9999: Query the XRDB from the command line, no more unnecessary grepping!
-x11-terms/st 0.4.1 0.5 0.6-r1 0.6-r2: simple terminal implementation for X
 x11-wm/fyre 9999: POSIX compliant sh scripts for wmutils.
 x11-wm/swm 9999: A simple window manager.
 x11-wm/wmutils-contrib 9999: Wmutils useful bits and pieces.
