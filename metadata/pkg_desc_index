@@ -6,7 +6,6 @@ dev-python/csvkit 0.9.0: csvkit is a suite of utilities for converting to and wo
 dev-python/dbf 0.95.004: Pure python package for reading/writing dBase, FoxPro and Visual FoxPro .dbf files.
 dev-python/emacs-epc 0.0.5 0.0.5-r1: Python interface to emacs remote procedure call
 dev-python/sexpdata 0.0.3: S-expression parser for Python
-net-vpn/openconnect 7.08: Free client for Cisco AnyConnect SSL VPN software
 sys-apps/cantools 0.17: Cantools is a collection of tools for dealing with Canalyzer style CAN data.
 sys-apps/data-science-toolbox 9999: Jeroen janssens data-science-toolbox
 sys-power/cpufreqd 2.4.2: CPU Frequency Daemon
