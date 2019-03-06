@@ -62,7 +62,7 @@ python_install_all() {
 	dodoc doc/{changelog,contributing,faq}.asciidoc
 	dodoc README.asciidoc
 
-	domenu misc/${PN}.desktop
+	domenu misc/org.${PN}.${PN}.desktop
 	doicon -s scalable icons/${PN}.svg
 
 	distutils-r1_python_install_all
