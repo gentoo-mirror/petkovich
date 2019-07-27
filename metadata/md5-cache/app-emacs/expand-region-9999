@@ -5,7 +5,8 @@ EAPI=4
 HOMEPAGE=https://github.com/magnars/expand-region.el
 KEYWORDS=amd64 x86
 LICENSE=GPL-3
+PROPERTIES=live
 RDEPEND=>=virtual/emacs-23
 SLOT=0
-_eclasses_=elisp	f8026e46da659669c11e50c306d1aeb8	elisp-common	23f47b2e1de7abf387105eddd1318738	epatch	a1bf4756dba418a7238f3be0cb010c54	git-2	249c1a0962573f4ce2c28f0d5b6b35d4
+_eclasses_=elisp	f8026e46da659669c11e50c306d1aeb8	elisp-common	23f47b2e1de7abf387105eddd1318738	epatch	a1bf4756dba418a7238f3be0cb010c54	git-2	3aabf18eba60687bbe6855eba271f688
 _md5_=ea3dbf43fbf9ffdb19c101229ea1fdbd
