@@ -60,6 +60,7 @@ PATCHES=(
 	"${FILESDIR}"/${PN}-2.3.2-fix_building_against_system_portaudio.patch
 	"${FILESDIR}"/${PN}-2.3.2-Fix-building-without-midi.patch
 	"${FILESDIR}"/${PN}-2.3.2-fix-build-without-portmixer.patch
+	"${FILESDIR}"/${PN}-2.3.2-images-position.patch
 )
 
 src_prepare() {

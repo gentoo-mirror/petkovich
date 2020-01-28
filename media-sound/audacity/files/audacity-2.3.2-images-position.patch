@@ -1,0 +1,11 @@
+--- audacity-Audacity-2.3.2/src/tracks/labeltrack/ui/LabelTextHandle.cpp	2019-05-04 06:38:57.000000000 -0400
++++ audacity-Audacity-2.3.2-patched/src/tracks/labeltrack/ui/LabelTextHandle.cpp	2020-01-28 14:33:55.312385042 -0500
+@@ -19,7 +19,7 @@
+ #include "../../../RefreshCode.h"
+ #include "../../../TrackPanelMouseEvent.h"
+ #include "../../../ViewInfo.h"
+-#include "../../../images/Cursors.h"
++#include "../../../../images/Cursors.h"
+ 
+ LabelTextHandle::LabelTextHandle
+ ( const std::shared_ptr<LabelTrack> &pLT, int labelNum )
