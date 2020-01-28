@@ -1,0 +1,24 @@
+diff -Naur a/configure.ac b/configure.ac
+--- a/configure.ac	2019-05-04 10:38:57.000000000 +0000
++++ b/configure.ac	2019-09-12 01:47:01.000000000 +0000
+@@ -669,6 +669,7 @@
+ esac
+ 
+ 
++AM_CONDITIONAL([USE_PORTMIXER], [test "$use_portmixer" = yes])
+ if [[ "$use_portmixer" = "yes" ]] ; then
+    AC_DEFINE(USE_PORTMIXER, 1,
+    [Define if PortMixer support should be enabled])
+diff -Naur a/lib-src/Makefile.am b/lib-src/Makefile.am
+--- a/lib-src/Makefile.am	2019-05-04 10:38:57.000000000 +0000
++++ b/lib-src/Makefile.am	2019-09-12 01:21:23.000000000 +0000
+@@ -157,7 +157,9 @@
+ endif
+ 
+ # Note: portmixer needs to be linked against (the local or system) portaudio.
++if USE_PORTMIXER
+ SUBDIRS += portmixer
++endif
+ 
+ if USE_LOCAL_PORTSMF
+ SUBDIRS += portsmf
