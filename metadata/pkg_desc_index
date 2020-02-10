@@ -1,16 +1,10 @@
 app-editors/atom 0.184.0 9999: A hackable text editor for the 21st Century
 app-editors/atom-bin 1.0.19 1.2.0: A hackable text editor for the 21st Century.
-app-emacs/ace-jump-mode 9999: Ace jump mode is a minor mode of emacs, which help you to move the cursor within Emacs.
-app-emacs/evil 9999: Extensible vi layer
-app-emacs/expand-region 9999: Emacs package for expanding the selected region by semantic units.
 app-eselect/eselect-infinality 1-r1: Eselect module to choose an infinality font configuration style
 app-misc/powerline 9999-r14: Python-based statusline/prompt utility
 app-shells/dash 0.5.9.1-r1: DASH is a direct descendant of the NetBSD version of ash (the Almquist SHell) and is POSIX compliant
 app-shells/fish 9999: Friendly Interactive SHell
 app-text/calibre 2.63.0: Ebook management application
-app-text/libzathura 9999: The new rendering library for zathura the document viewer
-app-text/libzathura-gtk 9999: GTK widget extensions for libzathura.
-app-text/zathura-pdf-poppler 9999-r1: PDF plug-in for zathura
 dev-lang/v8 3.14.5.3: Google's open source JavaScript engine
 dev-python/csvkit 0.9.0: csvkit is a suite of utilities for converting to and working with CSV.
 dev-python/dbf 0.95.004: Pure python package for reading/writing dBase, FoxPro and Visual FoxPro .dbf files.
@@ -32,7 +26,6 @@ sci-libs/gsl 2.1-r1: GNU Scientific Library
 sci-libs/lapack-reference 9999-r1: Reference implementation of LAPACK
 sci-libs/openblas 9999-r1: Optimized BLAS library based on GotoBLAS2
 sys-apps/cantools 0.17: Cantools is a collection of tools for dealing with Canalyzer style CAN data.
-sys-apps/data-science-toolbox 9999: Jeroen janssens data-science-toolbox
 sys-power/cpufreqd 2.4.2: CPU Frequency Daemon
 virtual/blas 2.1-r6: Virtual for FORTRAN 77 BLAS implementation
 virtual/cblas 2.0-r4: Virtual for BLAS C implementation
