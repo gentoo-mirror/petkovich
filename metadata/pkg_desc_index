@@ -9,7 +9,6 @@ dev-python/csvkit 0.9.0: csvkit is a suite of utilities for converting to and wo
 dev-python/dbf 0.95.004: Pure python package for reading/writing dBase, FoxPro and Visual FoxPro .dbf files.
 dev-python/emacs-epc 0.0.5 0.0.5-r1: Python interface to emacs remote procedure call
 dev-python/sexpdata 0.0.3: S-expression parser for Python
-dev-qt/qtwebkit 5.6.0-r1: WebKit rendering library for the Qt5 framework (deprecated)
 games-arcade/binding-of-isaac 1.0: Action RPG similar to the Legend of Zelda with randomized dungeons.
 media-fonts/powerline-fonts 9999-r1: Monospaced fonts pre-patched with Powerline symbols
 media-fonts/powerline-symbols 9999: OpenType Unicode font containing only Powerline-specific symbols.
