@@ -15,7 +15,7 @@ media-fonts/powerline-symbols 9999: OpenType Unicode font containing only Powerl
 media-fonts/ttf-font-icons 9999: A non-overlapping mix of Ionicons and Awesome iconic fonts
 media-libs/woff2 1.0.2: A library and utils for Web Open Font Format 2.0
 media-sound/audacity 2.3.2-r1: Free crossplatform audio editor
-net-im/zoom-bin 2.4.129780.0915 2.8.222599.0519 5.0.413237.0524: Video conferencing and web conferencing service
+net-im/zoom-bin 2.4.129780.0915 2.8.222599.0519 5.0.413237.0524 5.1.422789.0705: Video conferencing and web conferencing service
 net-libs/iojs 1.0.2 3.2.0: An npm compatible platform originally based on node.js
 net-libs/webkit-gtk 2.20.0 2.20.2 2.21.1: Open source web browser engine
 sci-libs/atlas 3.10.1-r3 3.11.38-r2: Automatically Tuned Linear Algebra Software
