@@ -30,7 +30,6 @@ virtual/nodejs 1: Virtual for nodejs implementations
 www-client/surf 0.7-r1: a simple web browser based on WebKit/GTK+
 x11-libs/ghosd 0.0.1: On-screen display (OSD) with transparency
 x11-misc/colort 9999: A small program for 'tinting' colors by values. Also supports inverting colors.
-x11-misc/compton 9999-r1: A compositor for X, and a fork of xcompmgr-dana
 x11-misc/lemonbar 9999: a featherweight, lemon-scented, bar based on xcb
 x11-misc/xrq 9999: Query the XRDB from the command line, no more unnecessary grepping!
 x11-terms/st 0.4.1 0.5 0.6-r1 0.6-r2: simple terminal implementation for X
