@@ -4,9 +4,6 @@ app-shells/dash 0.5.9.1-r1: DASH is a direct descendant of the NetBSD version of
 app-shells/fish 9999: Friendly Interactive SHell
 dev-lang/v8 3.14.5.3: Google's open source JavaScript engine
 games-arcade/binding-of-isaac 1.0: Action RPG similar to the Legend of Zelda with randomized dungeons.
-media-fonts/powerline-fonts 9999-r1: Monospaced fonts pre-patched with Powerline symbols
-media-fonts/powerline-symbols 9999: OpenType Unicode font containing only Powerline-specific symbols.
-media-fonts/ttf-font-icons 9999: A non-overlapping mix of Ionicons and Awesome iconic fonts
 media-libs/woff2 1.0.2: A library and utils for Web Open Font Format 2.0
 media-sound/audacity 2.3.2-r1: Free crossplatform audio editor
 net-im/zoom-bin 2.4.129780.0915 2.8.222599.0519 5.0.413237.0524 5.1.422789.0705 5.2.454870.0831: Video conferencing and web conferencing service
