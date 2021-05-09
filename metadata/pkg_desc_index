@@ -1,7 +1,6 @@
 app-eselect/eselect-infinality 1-r1: Eselect module to choose an infinality font configuration style
 app-shells/dash 0.5.9.1-r1: DASH is a direct descendant of the NetBSD version of ash (the Almquist SHell) and is POSIX compliant
 app-shells/fish 9999: Friendly Interactive SHell
-games-arcade/binding-of-isaac 1.0: Action RPG similar to the Legend of Zelda with randomized dungeons.
 media-libs/woff2 1.0.2: A library and utils for Web Open Font Format 2.0
 net-im/zoom-bin 2.4.129780.0915 2.8.222599.0519 5.0.413237.0524 5.1.422789.0705 5.2.454870.0831: Video conferencing and web conferencing service
 net-libs/webkit-gtk 2.20.0 2.20.2 2.21.1: Open source web browser engine
