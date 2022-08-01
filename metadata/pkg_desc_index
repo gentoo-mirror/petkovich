@@ -1,8 +1,5 @@
 app-eselect/eselect-infinality 1-r1: Eselect module to choose an infinality font configuration style
-app-shells/fish 9999: Friendly Interactive SHell
-media-libs/woff2 1.0.2: A library and utils for Web Open Font Format 2.0
 net-im/zoom-bin 2.4.129780.0915 2.8.222599.0519 5.0.413237.0524 5.1.422789.0705 5.2.454870.0831: Video conferencing and web conferencing service
-net-libs/webkit-gtk 2.20.0 2.20.2 2.21.1: Open source web browser engine
 sys-apps/cantools 0.17: Cantools is a collection of tools for dealing with Canalyzer style CAN data.
 virtual/nodejs 1: Virtual for nodejs implementations
 x11-libs/ghosd 0.0.1: On-screen display (OSD) with transparency
