@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit cmake-utils readme.gentoo-r1
+inherit cmake readme.gentoo-r1
 
 DESCRIPTION="Friendly Interactive SHell"
 HOMEPAGE="http://fishshell.com/"
