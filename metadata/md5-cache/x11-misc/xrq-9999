@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst prepare unpack
+DEPEND=x11-libs/libX11
+DESCRIPTION=Query the XRDB from the command line, no more unnecessary grepping!
+EAPI=7
+HOMEPAGE=https://github.com/arianon/xrq/
+INHERIT=eutils multilib savedconfig toolchain-funcs git-r3
+IUSE=savedconfig
+KEYWORDS=~amd64 ~hppa ~x86
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=x11-libs/libX11
+SLOT=0
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	portability	d33a77692bb47e8227f27e17fb9c3c05	savedconfig	7cb1bf66b4acedc4f06802a012d3b08d	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=8cb561c46d3345fd9e6030abd863cb1d
