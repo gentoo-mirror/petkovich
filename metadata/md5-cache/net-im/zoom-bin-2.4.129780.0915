@@ -10,5 +10,5 @@ RDEPEND=pulseaudio? ( media-sound/pulseaudio ) gstreamer? ( media-libs/gst-plugi
 RESTRICT=mirror
 SLOT=0
 SRC_URI=amd64? ( https://zoom.us/client/2.4.129780.0915/zoom_x86_64.tar.xz -> zoom-bin-2.4.129780.0915_x86_64.tar.xz ) x86? ( https://zoom.us/client/2.4.129780.0915/zoom_i686.tar.xz -> zoom-bin-2.4.129780.0915_i686.tar.xz )
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	unpacker	bc57272a0491765c71d973c8cfd35063
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	959e1d99122907eb98a3a660297a967e	multilib	5ca4e49abed8e3a2f7b56920eadee157	unpacker	bc57272a0491765c71d973c8cfd35063
 _md5_=de9cf993f19b57ae546918a4107b0184
