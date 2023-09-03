@@ -4,7 +4,9 @@ net-im/zoom-bin 2.4.129780.0915 2.8.222599.0519 5.0.413237.0524 5.1.422789.0705 
 sys-apps/cantools 0.17: Cantools is a collection of tools for dealing with Canalyzer style CAN data.
 virtual/nodejs 1: Virtual for nodejs implementations
 x11-libs/ghosd 0.0.1: On-screen display (OSD) with transparency
+x11-misc/colort 9999: A small program for 'tinting' colors by values. Also supports inverting colors.
 x11-misc/lemonbar 9999: a featherweight, lemon-scented, bar based on xcb
+x11-misc/xrq 9999: Query the XRDB from the command line, no more unnecessary grepping!
 x11-wm/fyre 9999: POSIX compliant sh scripts for wmutils.
 x11-wm/swm 9999: A simple window manager.
 x11-wm/wmutils-contrib 9999: Wmutils useful bits and pieces.
