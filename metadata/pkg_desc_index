@@ -3,4 +3,3 @@ app-shells/fish 9999: Friendly Interactive SHell
 net-im/zoom-bin 2.4.129780.0915 2.8.222599.0519 5.0.413237.0524 5.1.422789.0705 5.2.454870.0831: Video conferencing and web conferencing service
 virtual/nodejs 1: Virtual for nodejs implementations
 x11-libs/ghosd 0.0.1: On-screen display (OSD) with transparency
-x11-misc/lemonbar 9999: a featherweight, lemon-scented, bar based on xcb
