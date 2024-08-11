@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI=6
+EAPI=7
 
-inherit git-r3 eutils toolchain-funcs
+inherit git eutils toolchain-funcs
 
 DESCRIPTION="Wmutils useful bits and pieces."
 HOMEPAGE="https://github.com/wmutils/contrib"
