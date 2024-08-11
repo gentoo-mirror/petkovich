@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI=6
+EAPI=7
 
-inherit eutils
+inherit
 
 DESCRIPTION="Cantools is a collection of tools for dealing with Canalyzer style CAN data."
 HOMEPAGE="https://sourceforge.net/projects/cantools/"

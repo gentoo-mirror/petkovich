@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI=6
+EAPI=7
 
-inherit git-r3 eutils savedconfig toolchain-funcs
+inherit git-r3 savedconfig toolchain-funcs
 
 DESCRIPTION="A simple window manager."
 HOMEPAGE="https://github.com/dcat/swm"

@@ -1,13 +1,15 @@
 
-games-arcade 
-x11-libs 
-x11-themes 
-dev-python 
+app-editors 
+app-eselect 
+app-shells 
+app-text 
+media-libs 
+net-im 
+net-libs 
+sci-libs 
 sys-apps 
-gnome-base 
-app-emacs 
 sys-power 
-gnome-extra 
-dev-lisp 
+www-client 
+x11-libs 
 x11-misc 
-x11-terms
+x11-wm
