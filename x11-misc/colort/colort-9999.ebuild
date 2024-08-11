@@ -4,19 +4,18 @@
 
 EAPI=6
 
-inherit multilib savedconfig toolchain-funcs git-r3
+inherit eutils multilib savedconfig toolchain-funcs git-r3
 
-DESCRIPTION="Query the XRDB from the command line, no more unnecessary grepping!"
-HOMEPAGE="https://github.com/arianon/xrq/"
+DESCRIPTION="A small program for 'tinting' colors by values. Also supports inverting colors."
+HOMEPAGE="https://github.com/neeasade/colort/"
 
-EGIT_REPO_URI="https://github.com/arianon/xrq.git"
+EGIT_REPO_URI="https://github.com/neeasade/colort.git"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~hppa ~x86"
 
 RDEPEND="
-	x11-libs/libX11
 "
 DEPEND="
 	${RDEPEND}
