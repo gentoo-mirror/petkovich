@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=unpack
+DEPEND=x11-libs/libxcb
+DESCRIPTION=A library for manipulating windows.
+EAPI=7
+HOMEPAGE=https://github.com/wmutils/libwm
+INHERIT=git-r3 toolchain-funcs
+KEYWORDS=amd64 x86
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=x11-libs/libxcb
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_md5_=3c963adccb4af2737b4039b262e8018c
