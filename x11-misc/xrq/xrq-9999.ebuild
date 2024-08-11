@@ -4,7 +4,7 @@
 
 EAPI=7
 
-inherit eutils multilib savedconfig toolchain-funcs git-r3
+inherit multilib savedconfig toolchain-funcs git-r3
 
 DESCRIPTION="Query the XRDB from the command line, no more unnecessary grepping!"
 HOMEPAGE="https://github.com/arianon/xrq/"
