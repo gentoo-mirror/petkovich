@@ -4,7 +4,7 @@
 
 EAPI=7
 
-inherit git eutils toolchain-funcs
+inherit git-r3 toolchain-funcs
 
 DESCRIPTION="A library for manipulating windows."
 HOMEPAGE="https://github.com/wmutils/libwm"

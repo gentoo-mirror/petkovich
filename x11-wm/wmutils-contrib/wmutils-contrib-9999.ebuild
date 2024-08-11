@@ -4,7 +4,7 @@
 
 EAPI=7
 
-inherit git eutils toolchain-funcs
+inherit git-r3 toolchain-funcs
 
 DESCRIPTION="Wmutils useful bits and pieces."
 HOMEPAGE="https://github.com/wmutils/contrib"
