@@ -3,7 +3,9 @@ app-shells/fish 9999: Friendly Interactive SHell
 net-im/zoom-bin 5.2.454870.0831: Video conferencing and web conferencing service
 virtual/nodejs 1: Virtual for nodejs implementations
 x11-libs/ghosd 0.0.1: On-screen display (OSD) with transparency
+x11-misc/colort 9999: A small program for 'tinting' colors by values. Also supports inverting colors.
 x11-misc/lemonbar 9999: a featherweight, lemon-scented, bar based on xcb
+x11-misc/xrq 9999: Query the XRDB from the command line, no more unnecessary grepping!
 x11-wm/swm 9999: A simple window manager.
 x11-wm/wmutils-contrib 9999: Wmutils useful bits and pieces.
 x11-wm/wmutils-core 9999: A set of window manipulation tools.
