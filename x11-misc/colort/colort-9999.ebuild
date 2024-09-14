@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI=6
+EAPI=7
 
-inherit eutils multilib savedconfig toolchain-funcs git-r3
+inherit multilib savedconfig toolchain-funcs git-r3
 
 DESCRIPTION="A small program for 'tinting' colors by values. Also supports inverting colors."
 HOMEPAGE="https://github.com/neeasade/colort/"
