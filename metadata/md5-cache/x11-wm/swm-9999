@@ -11,5 +11,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=x11-libs/libxcb
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	portability	a39e3d646f76cb45d06b44cc1144b8d4	savedconfig	b9131abe556ad2ea96c01b06d658d363	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	portability	a39e3d646f76cb45d06b44cc1144b8d4	savedconfig	b9131abe556ad2ea96c01b06d658d363	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772
 _md5_=8ff4082d434b65b4ae82146ed4e2e68d
